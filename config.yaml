@@ -1,0 +1,13 @@
+mailer:
+#  sendmail:
+#    cmd_path: /usr/sbin/sendmail
+  smtp:
+    host: 0.0.0.0
+    port: 1025
+    username: username
+    password: password
+    tls: false
+    auth: PLAIN # or LOGIN
+    from:
+      name: "App Name"
+      address: "info@appname.com"
